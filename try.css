@@ -1,0 +1,50 @@
+body {
+	font-family: 'Sriracha';
+	font-size: 19px;
+}
+
+
+th, td {
+	border:1px solid black;
+}
+
+#navbar {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	float: left;
+	/*border-right: 2px solid;*/
+}
+
+#navbar {
+	position: fixed;
+	background-color:  #80ff80;
+	padding: 6px;
+	overflow: hidden;
+	width: 100%;
+}
+
+li a {
+	padding: 10px 14px;
+	text-align: center;
+}
+
+#pnavbar {
+	float:center; 
+	color: #b300b3;
+}
+
+#aside10 {
+	background-color: #ffbf80;
+	float: right;
+	width: 70%;
+	height: 50%
+}
+
+
+#quotations {
+	float: right;
+	background-image: url(/images1/bgt.jpg);
+}

@@ -1,0 +1,75 @@
+h1{
+	float: centered;
+	background-color: #1affd1;
+	padding: 15px;
+}
+
+
+li {
+  display: inline;
+}  
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+li {
+  float: right;
+	border-right: 1px solid #bbb;
+}
+
+
+li a {
+  display: block;
+  padding: 15px;
+  
+}
+
+
+.navlist {
+	background-color: #6699ff;
+}
+
+
+li a:hover {
+  background-color: #00cccc;
+}
+
+
+/*
+.navlist a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+*/  
+creates an active colour over the selected page
+
+/*
+.navlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+*/
+creates a fix at the top nav bar to make it stick at the top whenever the user scrolls the page down
+
+
+
+
